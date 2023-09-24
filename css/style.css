@@ -699,6 +699,9 @@ footer .ftr-logo{
     .section_2 .left{
         height: 680px;
     }
+    .section_3 .collections .collection .txt{
+        opacity: 1;
+    }
     .section_4 .PSwiper{
         height: 620px;
     }
