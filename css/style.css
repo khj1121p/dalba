@@ -717,6 +717,7 @@ footer .ftr-logo{
         font-size: 1.25rem;
         margin-bottom: 16px;
         word-wrap: break-word;
+        word-break: keep-all;
     }
     iframe{
         height: 470px;
