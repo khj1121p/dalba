@@ -705,6 +705,19 @@ footer .ftr-logo{
     .section_4 .PSwiper{
         height: 620px;
     }
+    .section_5{
+    padding: 16px;
+    }
+    .section_5 .title h1{
+        font-size: 4.2rem;
+        font-weight: 300;
+        margin-bottom: 8px;
+    }
+    .section_5 .title p{
+        font-size: 1.25rem;
+        margin-bottom: 16px;
+        word-wrap: break-word;
+    }
     iframe{
         height: 470px;
     }
