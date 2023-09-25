@@ -705,6 +705,9 @@ footer .ftr-logo{
     .section_4 .PSwiper{
         height: 620px;
     }
+    .section_4 .PSwiper .prod{
+        height: 420px;
+    }
     .section_5 .title {
         padding: 16px;
     }
