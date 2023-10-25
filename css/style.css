@@ -662,8 +662,6 @@ footer .ftr-logo{
     }
     .section_4 .container{
         margin: 100px 16px;
-    }
-    .section_4 .container{
         width: auto;
     }
     .section_4 .PSwiper{
@@ -715,7 +713,8 @@ footer .ftr-logo{
         height: 480px;
     }
     .section_4 .PSwiper .prod{
-        height: 420px;
+        /* height: 420px; */
+        height: 350px;
     }
     iframe{
         height: 470px;
@@ -764,6 +763,9 @@ footer .ftr-logo{
         font-size: 0.75rem;
     }
     .section_4 .PSwiper{
-        height: 500px;
+        height: 520px;
+    }
+    .section_4 .PSwiper .prod{
+        height: 450px;
     }
 } 
