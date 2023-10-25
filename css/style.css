@@ -336,20 +336,18 @@ section .same_width{
 
 /* 섹션4 best-product */
 .section_4 .container{
-    /* width: 1500px; */
-    width: 78vw;
+    width: 1500px;
+    /* width: 78vw; */
     margin: 100px auto;
-}
-.section_4{
-    /* padding: 100px 240px; */
-    /* padding: 0 32px; */
 }
 .section_4 h1{
     font-family: 'IBM Plex Serif', serif;
     font-size: 3.875rem;
     font-weight: 300;
     text-align: center;
+    margin-bottom: 32px;
 }
+
 .section_4 .PSwiper{
     width: 100%;
     height: 500px;
@@ -358,8 +356,14 @@ section .same_width{
     font-size: 1.25rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-right: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.section_4 .swiper-slide .prod{
+    /* width: 360px; */
+    height: 375px;
+    margin-bottom: 16px;
 }
 .section_4 .detail h6{
     font-size: 1.5rem;
@@ -475,8 +479,8 @@ footer .ftr-logo{
     .section_2 .left{
         height: 980px;
     }
-    .section_4 .PSwiper{
-        height: 450px;
+    .section_4 .container{
+        width: 1200px;
     }
     footer .ftr-info .ftr h4,
     footer .ftr-info .ftr p{
@@ -502,8 +506,8 @@ footer .ftr-logo{
     .section_3 .collection{
         height: 450px;
     }
-    .section_4 .PSwiper{
-        height: 420px;
+    .section_4 .container{
+        width: 900px;
     }
     .section_5 .title{
         height: 300px;
@@ -656,12 +660,17 @@ footer .ftr-logo{
     .section_3 h1{
         display: none;
     }
-    .section_4 .container,
-    .section_5{
-        margin: 100px auto;
+    .section_4 .container{
+        margin: 100px 16px;
+    }
+    .section_4 .container{
+        width: auto;
     }
     .section_4 .PSwiper{
         height: 420px;
+    }
+    .section_5{
+        margin: 100px auto;
     }
     .section_5 .title{
         height: 240px;
@@ -708,6 +717,9 @@ footer .ftr-logo{
     .section_4 .PSwiper .prod{
         height: 420px;
     }
+    iframe{
+        height: 470px;
+    }
     .section_5 .title {
         padding: 16px;
     }
@@ -719,11 +731,7 @@ footer .ftr-logo{
     .section_5 .title p{
         font-size: 1.25rem;
         margin-bottom: 16px;
-        word-wrap: break-word;
         word-break: keep-all;
-    }
-    iframe{
-        height: 470px;
     }
     .section_5 .title p,
     .section_5 .title span{
@@ -756,6 +764,6 @@ footer .ftr-logo{
         font-size: 0.75rem;
     }
     .section_4 .PSwiper{
-        height: 450px;
+        height: 500px;
     }
 } 
