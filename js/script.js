@@ -48,7 +48,7 @@ $(document).ready(function(){
         loop: true,
         speed: 500,
         autoplay: {
-          dela: 500,
+          delay: 500,
           disableOnInteraction: false,
         },
         // pagination: {
@@ -73,7 +73,7 @@ $(document).ready(function(){
           },
           375:{
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 10,
             slidesPerGroup: 1,    
           }
         }
