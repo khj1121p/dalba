@@ -45,9 +45,6 @@ $(document).ready(function(){
 
     // 프로덕트 스와이퍼
         var swiper = new Swiper(".PSwiper", {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        slidesPerGroup: 1,
         loop: true,
         speed: 500,
         autoplay: {
@@ -61,13 +58,24 @@ $(document).ready(function(){
         breakpoints: {
           1400: {
             slidesPerView: 4,
+            spaceBetween: 10,
+            slidesPerGroup: 1,    
           },
           760: {
             slidesPerView: 3,
+            spaceBetween: 10,
+            slidesPerGroup: 1,    
           },
           500: {
             slidesPerView: 2,
+            spaceBetween: 10,
+            slidesPerGroup: 1,    
           },
+          375:{
+            slidesPerView: 1,
+            spaceBetween: 0,
+            slidesPerGroup: 1,    
+          }
         }
       });
    
