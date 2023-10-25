@@ -350,7 +350,7 @@ section .same_width{
 
 .section_4 .PSwiper{
     width: 100%;
-    height: 500px;
+    height: 482px;
 }
 .section_4 .swiper-slide{
     font-size: 1.25rem;
@@ -667,7 +667,7 @@ footer .ftr-logo{
         width: auto;
     }
     .section_4 .PSwiper{
-        height: 420px;
+        height: 460px;
     }
     .section_5{
         margin: 100px auto;
