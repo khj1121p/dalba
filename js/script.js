@@ -46,7 +46,7 @@ $(document).ready(function(){
     // 프로덕트 스와이퍼
         var swiper = new Swiper(".PSwiper", {
         slidesPerView: 1,
-        spaceBetween: 0,
+        spaceBetween: 10,
         slidesPerGroup: 1,
         loop: true,
         speed: 500,
