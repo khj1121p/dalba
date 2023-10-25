@@ -59,15 +59,15 @@ $(document).ready(function(){
         //   clickable: true,
         // },
         breakpoints: {
-          960: {
+          1400: {
             slidesPerView: 4,
           },
           760: {
             slidesPerView: 3,
           },
-          // 500: {
-          //   slidesPerView: 2,
-          // }
+          500: {
+            slidesPerView: 2,
+          },
         }
       });
    
